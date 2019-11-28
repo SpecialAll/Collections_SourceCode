@@ -1,0 +1,4 @@
+面试中遇到了关于map的有序性问题，所以在这里整个总结一下map、list、set的有序和无序问题：
+    map:存储键值对，hashMap是相对无序的，如果需要存入和取出的顺序一致也就是有序，那就需要使用LinkedHashMap；
+    list:ArrayList 和 LinkedList都是相对有序的；
+    set：HashSet是不保证有序的，但是存在偶然性的有序；TreeSet会将存入的元素进行自然排序，输出的是排序后的元素；LinkeHashSet是可以保证相对有序的 ；
